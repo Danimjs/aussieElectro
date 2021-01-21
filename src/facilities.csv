@@ -1,5 +1,5 @@
-facility,status,region,technology,generatorcap,latitude,longitude
-Ballarat Battery,Commissioned,Victoria,Battery (Discharging),30,-37.567452,143.852741
+facility,status,region,technology,generatorcap,latitude,longitude,source
+Ballarat Battery,Commissioned,Victoria,Battery (Discharging),30,-37.567452,143.852741,abc
 Dalrymple North Battery,Commissioned,South Australia,Battery (Discharging),30,-34.888446,137.758114
 Gannawarra Battery,Commissioned,Victoria,Battery (Discharging),30,-35.735056,143.779462
 Hornsdale Power Reserve,Commissioned,South Australia,Battery (Discharging),100,-33.085519,138.521914
@@ -121,8 +121,8 @@ Torrens Island,Commissioned,South Australia,Gas (Steam),1280,-34.80455914,138.52
 Appin,Commissioned,New South Wales,Gas (Waste Coal Mine),55,-34.210868,150.792711
 German Creek,Commissioned,Queensland,Gas (Waste Coal Mine),45,-22.928526,148.549097
 Glennies Creek,Commissioned,New South Wales,Gas (Waste Coal Mine),12,-32.464343,151.130432
-Grosvenor 1,Commissioned,Queensland,Gas (Waste Coal Mine),21,,
-Grosvenor 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,,
+Grosvenor 1,Commissioned,Queensland,Gas (Waste Coal Mine),21,-21.973840723837682,148.01067245180025
+Grosvenor 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,-21.973840723837682,148.01067245180025
 Moranbah North,Commissioned,Queensland,Gas (Waste Coal Mine),63,-21.978481,148.004809
 Oaky Creek 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,-23.048717,148.484462
 Tahmoor,Commissioned,New South Wales,Gas (Waste Coal Mine),7,-34.249117,150.577718
