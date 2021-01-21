@@ -18,14 +18,14 @@ Eastern Creek 2,Commissioned,New South Wales,Bioenergy (Biogas),8.984,-33.815468
 Grange Avenue,Commissioned,New South Wales,Bioenergy (Biogas),2,-33.713011,150.83316
 Hallam Road,Commissioned,Victoria,Bioenergy (Biogas),9,-38.052181,145.267798
 Jacks Gully,Commissioned,New South Wales,Bioenergy (Biogas),2,-34.072955,150.743691
-Kemps Creek,Commissioned,New South Wales,Bioenergy (Biogas),1,,
+Kemps Creek,Commissioned,New South Wales,Bioenergy (Biogas),1,-33.86710796600308,150.76264245241975,Google SUEZ
 Kincumber,Commissioned,New South Wales,Bioenergy (Biogas),1,-33.477111,151.402603
 Lucas Heights 2,Commissioned,New South Wales,Bioenergy (Biogas),5,-34.044088,150.972475
 Remount,Commissioned,Tasmania,Bioenergy (Biogas),2,-41.398447,147.1495
 Rochedale,Commissioned,Queensland,Bioenergy (Biogas),4,-27.555798,153.123155
 Shepparton Wastewater Treatment,Commissioned,Victoria,Bioenergy (Biogas),1,-36.322223,145.379291
 Springvale,Commissioned,Victoria,Bioenergy (Biogas),5,-37.973375,145.139695
-Stapylton,Commissioned,Queensland,Bioenergy (Biogas),3,,
+Stapylton,Commissioned,Queensland,Bioenergy (Biogas),3,-27.690777798749885,152.65977812696576,Google Ti Tree Bioenergy
 Tatura Biomass,Commissioned,Victoria,Bioenergy (Biogas),1,-36.47915,145.235037
 Veolia Ti Tree Bio Reactor,Commissioned,Queensland,Bioenergy (Biogas),2,-27.695551,152.650313
 West Nowra,Commissioned,New South Wales,Bioenergy (Biogas),1,-34.882318,150.551075
@@ -121,8 +121,8 @@ Torrens Island,Commissioned,South Australia,Gas (Steam),1280,-34.80455914,138.52
 Appin,Commissioned,New South Wales,Gas (Waste Coal Mine),55,-34.210868,150.792711
 German Creek,Commissioned,Queensland,Gas (Waste Coal Mine),45,-22.928526,148.549097
 Glennies Creek,Commissioned,New South Wales,Gas (Waste Coal Mine),12,-32.464343,151.130432
-Grosvenor 1,Commissioned,Queensland,Gas (Waste Coal Mine),21,-21.973840723837682,148.01067245180025
-Grosvenor 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,-21.973840723837682,148.01067245180025
+Grosvenor 1,Commissioned,Queensland,Gas (Waste Coal Mine),21,-21.973840723837682,148.01067245180025,Google
+Grosvenor 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,-21.973840723837682,148.01067245180025,Google
 Moranbah North,Commissioned,Queensland,Gas (Waste Coal Mine),63,-21.978481,148.004809
 Oaky Creek 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,-23.048717,148.484462
 Tahmoor,Commissioned,New South Wales,Gas (Waste Coal Mine),7,-34.249117,150.577718
