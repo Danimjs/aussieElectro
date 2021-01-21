@@ -6783,6 +6783,44 @@
               -12.554503
            ]
         }
+          },
+      {
+        "type": "Feature",
+        "properties": {
+           "capacity": 129,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Weddell Power Station",
+           "state": "NT",
+           "yearStart": 2008,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              130.950184,
+              -12.577119              
+           ]
+        }
+            },
+      {
+        "type": "Feature",
+        "properties": {
+           "capacity": 36.5,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Katherine Power Station",
+           "state": "NT",
+           "yearStart": 1987,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              132.243939,
+              -14.458674
+           ]
+        }
      }
      ]
     
