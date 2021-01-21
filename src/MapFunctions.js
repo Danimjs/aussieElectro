@@ -36,7 +36,6 @@ export default class MapFunctions extends Component {
         zoomlevel: 0
     }
 
-
     init() {
         if (!this.m_initiated) {
             mapboxgl.accessToken = "pk.eyJ1Ijoibm9yYWhhbWEiLCJhIjoiY2ptaGFsZDR5MThrczN1dDhtajc1cTFmMSJ9.VEUImGmfsM77LfjErYxDdQ"
@@ -45,6 +44,12 @@ export default class MapFunctions extends Component {
                 style: "mapbox://styles/mapbox/streets-v9",
                 zoom: [4],
                 center: [140.7751, -38.2744]
+// lock map bounds
+                var bounds = [
+                  [-45.186421, 112.512768] // Southwest coordinates
+                [-9.411847, 154.524484] // Notheast coordinates
+              ]
+              maxBounds: bounds // Sets bounds as max
             })
 
            
