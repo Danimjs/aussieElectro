@@ -60,18 +60,18 @@ code {
 }
 
 .activePanel{
-  background: rgba(40, 47, 66, 0.9);
+  background: rgba(203, 202, 202, 0.71);
   color: white;
 }
 
 .inactivePanel{
  /* background: lightgray;*/
-  color: darkgrey;
+  color: lightgrey;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #eaeaea;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -188,7 +188,7 @@ code {
 .mask {
   width: 100%;
   height: 100%;
-  background-color: rgba(36, 42, 58, 0.71);
+  background-color: rgba(203, 202, 202, 0.71);
 }
 
 #map {
@@ -351,7 +351,7 @@ code {
 }
 */
 #text-mask {
-  background-image: linear-gradient(#282f42, rgba(40, 47, 66, 0.9), rgba(40, 47, 66, 0.75), rgba(40, 47, 66, 0));
+  background-image: linear-gradient(#282f42, rgba(203, 202, 202, 0.9), rgba(203, 202, 202, 0.75), rgba(203, 202, 202, 0));
   z-index: 6;
   width: inherit;
   height: inherit;
@@ -362,9 +362,9 @@ code {
   color: white;
   background-color: #282f42;
   border: 1.5px solid #c6e7fa;
-  -moz-box-shadow:    3px 2px 0px 0px #c6e7fa;
-  -webkit-box-shadow: 3px 2px 0px 0px #c6e7fa;
-  box-shadow:         3px 2px 0px 0px #c6e7fa;
+  -moz-box-shadow:    3px 2px 0px 0px #f9fcfe;
+  -webkit-box-shadow: 3px 2px 0px 0px #f9fcfe;
+  box-shadow:         3px 2px 0px 0px #f9fcfe;
   z-index: 9;
   position: -webkit-sticky;
   position: sticky;
