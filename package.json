@@ -53,3 +53,4 @@
     "gh-pages": "^2.2.0"
   }
 }
+npm run deploy
