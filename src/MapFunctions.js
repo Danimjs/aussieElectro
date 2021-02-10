@@ -44,14 +44,6 @@ export default class MapFunctions extends Component {
                 style: "mapbox://styles/mapbox/streets-v9",
                 zoom: [4],
                 center: [140.7751, -38.2744]
-// lock map bounds
-                var bounds = [
-                  [-45.186421, 112.512768] // Southwest coordinates
-                [-9.411847, 154.524484] // Notheast coordinates
-              ]
-              maxBounds: bounds // Sets bounds as max
-            })}};
-            map.addControl(new mapboxgl.NavigationControl());
             // const filterType = ['!=', ['string', ['get', 'technology']], 'Battery (Discharging)'];
             var coalData = this.props.coalData;//geojson.parse(data, {Point: ['latitude','longitude']})
             var solarData = this.props.solarData;
