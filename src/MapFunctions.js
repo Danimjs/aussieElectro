@@ -43,7 +43,8 @@ export default class MapFunctions extends Component {
                 container: "map",
                 style: "mapbox://styles/mapbox/streets-v9",
                 zoom: [4],
-                center: [140.7751, -38.2744]
+                center: [140.7751, -38.2744],
+            }),
             // const filterType = ['!=', ['string', ['get', 'technology']], 'Battery (Discharging)'];
             var coalData = this.props.coalData;//geojson.parse(data, {Point: ['latitude','longitude']})
             var solarData = this.props.solarData;
