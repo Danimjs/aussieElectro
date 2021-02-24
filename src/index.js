@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import './css/responsive.css'
 //import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
-import StoryPanel from './StoryPanel.js'
+import StoryPanel from 'src/Components/StoryPanel.js'
 //import * as d3 from 'd3'
 import dataCoal from './AUSdata/powerStations_coal.json'
 import dataSolar from './AUSdata/powerStations_solar.json'
