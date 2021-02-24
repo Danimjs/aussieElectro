@@ -20,13 +20,12 @@ export default class MapVisualization extends Component {
     m_colors = {
         "Coal": "#91908d",
         "Storage": "#4e80e5",
-        "Solar": "#a18600",
+        "Solar": "#ffc83e",
+        "Solar2": "#ffa93e",
         "Hydro": "#43cfef",
-        "Wind": "#00a98e",
-        "Biomass": "#A7B734",
-        "Waste": "#6b4b06",
-        "Solar2": "#ea545c",
-        "Gas": "#cc9b7a"
+        "Wind": "#66e326",
+        "Waste": "#ea545c",
+        "Gas": "#6b4b06"
     }
 
     state = {
@@ -136,30 +135,28 @@ export default class MapVisualization extends Component {
                     'circle-color': [
                         'match',
                         ['get', 'type'],
-                        "Coal", "#ced1cc",
+                        "Coal", "#91908d",
                         "Storage", "#4e80e5",
                         "Solar", "#ffc83e",
+                        "Solar2", "#ffa93e",
                         "Hydro", "#43cfef",
-                        "Wind", "#00a98e",
-                        "Biomass", "#A7B734",
-                        "Solar2", "#ea545c",
-                        "Gas", "#cc9b7a",
-                        "Waste", "#6b4b06",
+                        "Wind", "#66e326"
+                        "Gas", "#6b4b06",
+                        "Waste", "#ea545c",
                         /* other */ '#ccc'
                     ],
                     'circle-opacity': 0.3,
                     'circle-stroke-color':  [
                         'match',
                         ['get', 'type'],
-                        "Coal", "#ced1cc",
+                        "Coal", "#91908d",
                         "Storage", "#4e80e5",
                         "Solar", "#ffc83e",
+                        "Solar2", "#ffa93e",
                         "Hydro", "#43cfef",
-                        "Wind", "#00a98e",
-                        "Biomass", "#A7B734",
-                        "Solar2", "#ea545c",
-                        "Gas", "#cc9b7a",
-                        "Waste", "#6b4b06",
+                        "Wind", "#66e326"
+                        "Gas", "#6b4b06",
+                        "Waste", "#ea545c",
                          /*other,*/  '#ccc' 
                     ],
                         'circle-stroke-opacity': 1,
@@ -190,9 +187,9 @@ export default class MapVisualization extends Component {
                                 [{zoom: 15, value: 2500}, 60]
                                 ]
                         },
-                        'circle-color':  "#404040",
+                        'circle-color':  "#91908d",
                         'circle-opacity': 0.3,
-                        'circle-stroke-color': "#404040",
+                        'circle-stroke-color': "#91908d",
                         'circle-stroke-opacity': 1,
                         'circle-stroke-width': 0.5
                     },
@@ -456,7 +453,7 @@ export default class MapVisualization extends Component {
     }
 
 }
-const PopupContent = ({ color, name, capacity, open, decom, type2 }) => (
+const PopupContent = ({ color, name, capacity, open, decom, type2 }) => ( /*Popup content hovering over facility*/
 
     <div className={`colour-key popupDiv`}>
         <h3 className="popupHeading" style={{ color: color }}> {name}</h3>
