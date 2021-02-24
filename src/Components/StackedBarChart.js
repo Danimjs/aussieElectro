@@ -14,13 +14,13 @@ export default class StackedBarChart extends PureComponent {
     "Solar": "#ffc83e",
     "Solar2": "#ffa93e", 
     "Hydro": "#43cfef",
-    "Wind": "#00a98e",
+    "Wind": "#66e326",
     "Waste": "#ea545c", 
     "Gas": "#6b4b06"
   }
 
   /*
-     "Coal", "#ced1cc", = grey
+     "Coal", "##91908d", = grey
       "Storage", "#4e80e5", = purple
       "Solar", "#ffc83e", = yellow
       "Solar2", #ffa93e", = orange
