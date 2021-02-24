@@ -31,7 +31,8 @@ class ScrollyTeller extends Component {
         // sorteddata: [],
         activeId: 0,
         panelHeight: 800,
-        types: [{ "type": "Coal", "active": true },
+        types: [
+        { "type": "Coal", "active": true },
         { "type": "Solar", "active": true },
         { "type": "Solar2", "active": true },
         { "type": "Hydro", "active": true },
