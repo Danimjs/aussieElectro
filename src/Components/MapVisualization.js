@@ -1,8 +1,8 @@
 import mapboxgl from 'mapbox-gl'
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
-//import geojson from 'geojson'
-export default class MapFunctions extends Component {
+
+export default class MapVisualization extends Component {
 
     // set to 2017 initially despite play preview or you get a bug when using the type dropdown
     m_filterStartYear = ['<=', ['number', ['get', 'yearStart']], 2000]
@@ -20,7 +20,7 @@ export default class MapFunctions extends Component {
     m_colors = {
         "Coal": "#91908d",
         "Storage": "#4e80e5",
-        "Solar": "#a18600",
+        "Solar": "#ffc83e",
         "Solar2": "#ffa93e",
         "Hydro": "#43cfef",
         "Wind": "#66e326",
@@ -35,6 +35,7 @@ export default class MapFunctions extends Component {
         zoomlevel: 0
     }
 
+
     init() {
         if (!this.m_initiated) {
             mapboxgl.accessToken = "pk.eyJ1IjoiZGF2ZW0xMTIyMzMiLCJhIjoiY2tsYnU0cjZiMHU2MjJ1cDI1cnRicXU4byJ9.hTkSY8W2vyxK0o0tezD5Mg"
@@ -42,8 +43,10 @@ export default class MapFunctions extends Component {
                 container: "map",
                 style: "mapbox://styles/mapbox/streets-v11",
                 zoom: [4],
-                center: [140.7751, -38.2744],
+                center: [140.7751, -38.2744]
             })
+
+           
             // const filterType = ['!=', ['string', ['get', 'technology']], 'Battery (Discharging)'];
             var coalData = this.props.coalData;//geojson.parse(data, {Point: ['latitude','longitude']})
             var solarData = this.props.solarData;
@@ -137,7 +140,7 @@ export default class MapFunctions extends Component {
                         "Solar", "#ffc83e",
                         "Solar2", "#ffa93e",
                         "Hydro", "#43cfef",
-                        "Wind", "#66e326",
+                        "Wind", "#66e326"
                         "Gas", "#6b4b06",
                         "Waste", "#ea545c",
                         /* other */ '#ccc'
@@ -151,7 +154,7 @@ export default class MapFunctions extends Component {
                         "Solar", "#ffc83e",
                         "Solar2", "#ffa93e",
                         "Hydro", "#43cfef",
-                        "Wind", "#66e326",
+                        "Wind", "#66e326"
                         "Gas", "#6b4b06",
                         "Waste", "#ea545c",
                          /*other,*/  '#ccc' 
@@ -450,7 +453,7 @@ export default class MapFunctions extends Component {
     }
 
 }
-const PopupContent = ({ color, name, capacity, open, decom, type2 }) => (
+const PopupContent = ({ color, name, capacity, open, decom, type2 }) => ( /*Popup content hovering over facility*/
 
     <div className={`colour-key popupDiv`}>
         <h3 className="popupHeading" style={{ color: color }}> {name}</h3>
@@ -463,4 +466,3 @@ const PopupContent = ({ color, name, capacity, open, decom, type2 }) => (
         </div>
     </div>
 )
-

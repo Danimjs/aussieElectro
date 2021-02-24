@@ -1,34 +1,27 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import './css/index.css';
-import './css/responsive.css'
-//import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
-import StoryPanel from './StoryPanel.js'
-//import * as d3 from 'd3'
-import dataCoal from './AUSdata/powerStations_coal.json'
-import dataSolar from './AUSdata/powerStations_solar.json'
-import currentData from "./AUSdata/facility_registry.json"
+import React, {Component} from "react";
+import * as d3 from "d3";
+import stackedData from "./AUSdata/yearDistribution.csv";
+import dataSolar from "./AUSdata/powerStations_solar.json";
+import sectiondata from "./playdata/sections.json";
+import StoryPanel from "./StoryPanel";
+import MapVisualization from "./MapVisualization";
+import dataCoal from "./AUSdata/powerStations_coal.json";
+import dataWind from "./AUSdata/facility_wind.json";
 import dataHydro from "./AUSdata/facility_hydro.json"
-import dataWind from "./AUSdata/facility_wind.json"
 import dataSolar2 from "./AUSdata/facility_solar2.json"
-import MapFunctions from './MapFunctions.js';
-import sectiondata from './playdata/sections.json'
-import ScrollIntoView from 'react-scroll-into-view'
-import Stackedbarchart from './stacked-bar.js'
-import dropdownmenu from './Dropdown.js'
+import currentData from "./AUSdata/facility_registry.json";
+import StackedBar from "./StackedBar";
+import NavMenuItem from "./NavMenuItem";
+import NavMenuTypeItem from "./NavMenuTypeItem";
 
-import *  as d3 from 'd3'
-import stackedData from './AUSdata/yearDistribution.csv'
 class ScrollyTeller extends Component {
-
-
     m_debug= true
     m_percentageCalcs = []
     updateDimensions = () => {
         this.setState({ width: window.innerWidth, height: window.innerHeight, panelHeight: window.innerHeight - 100 });
 
     };
-  
+
     //  m_mapfilter = null;
     state = {
         sections: [],
@@ -38,7 +31,8 @@ class ScrollyTeller extends Component {
         // sorteddata: [],
         activeId: 0,
         panelHeight: 800,
-        types: [{ "type": "Coal", "active": true },
+        types: [
+        { "type": "Coal", "active": true },
         { "type": "Solar", "active": true },
         { "type": "Solar2", "active": true },
         { "type": "Hydro", "active": true },
@@ -64,25 +58,25 @@ class ScrollyTeller extends Component {
 
     GetNewPercentages = (year) => {
         console.log(year)
-       
+
         if (year < this.m_percentageCalcs[0].year || year === undefined) {
 
                return this.m_percentageCalcs[0].vals
-          
+
         } else if (year> this.m_percentageCalcs[this.m_percentageCalcs.length - 1].year) {
-            
+
             return    this.m_percentageCalcs[this.m_percentageCalcs.length - 1].vals
-           
+
         } else {
                 var i=0
                 while(this.m_percentageCalcs[i].year < year){
-       
+
                     i++
                 }
                 console.log(this.m_percentageCalcs[i].vals)
-                return  this.m_percentageCalcs[i].vals      
+                return  this.m_percentageCalcs[i].vals
         }
-    
+
     }
 
     prepPercentages = (data) => {
@@ -138,15 +132,15 @@ class ScrollyTeller extends Component {
             arr.push({ "type": "Waste", "percentage": +parseFloat((row.Waste) / sum * 100).toFixed(2) })
             arr.push({ "type": "Wind", "percentage": +parseFloat((row.Wind) / sum * 100 ).toFixed(2)})
             arr.push({ "type": "Gas", "percentage": +parseFloat((row.Gas) / sum * 100).toFixed(2) })
-          
+
             this.m_percentageCalcs.push({ "year": parseFloat(row.Year), vals: arr })
         }
        // console.log(this.m_percentageCalcs)
        // this.updatePercentages(1960)
        this.setState({
-           
+
         percentages: this.GetNewPercentages( this.state.sections[0].year)
-        
+
     })
     }
 
@@ -166,10 +160,10 @@ class ScrollyTeller extends Component {
                     dataSolar.features[i-1].properties.yearEnd=9999
                 }
                 postcode = obj.properties.site
-            } 
-           
+            }
+
         }
-        
+
         for ( i = 0; i < sectiondata.sections.length; i++) {
             sectiondata.sections[i].renderparagraphs = this.createPanelContent(sectiondata.sections[i].year, sectiondata.sections[i].paragraphs)
             //     console.log(sectiondata.sections[i].renderparagraphs)
@@ -190,13 +184,13 @@ class ScrollyTeller extends Component {
             } else if( val < 200) {
                 dataSolar.features[j].properties.gValue = 200;
             } else {
-               
+
                 dataSolar.features[j].properties.gValue =  300 - (Math.trunc((val - 200) * (200 - 50)/(15000-200) + 50))
            //     console.log(dataSolar.features[j].properties.capacity);
-                
+
             }
             dataSolar.features[j].properties.capacity = (dataSolar.features[j].properties.capacity /= 1000).toFixed(2);
-           
+
 
         }
 
@@ -209,15 +203,15 @@ class ScrollyTeller extends Component {
     setActiveID = (id) => {
         this.setState({
             activeId: id,
-       
-            
+
+
         })
 
         if(this.m_percentageCalcs!==undefined && this.m_percentageCalcs.length > 0){
             this.setState({
-           
+
                 percentages: this.GetNewPercentages( this.state.sections[id].year)
-                
+
             })
         }
       //  this.updatePercentages(this.state.sections[id].year)
@@ -269,7 +263,7 @@ class ScrollyTeller extends Component {
                             paragraphs[i].text = paragraphs[i].text.replace(action.highlight.keywords[k], "<span class='" + action.highlight.keywords[k] + "'>" + action.highlight.keywords[k] + "</span>")
                             filter.objects.push(this.cap(action.highlight.keywords[k]))
 
-                            //capitalise first letter otherwise the filter breaks 
+                            //capitalise first letter otherwise the filter breaks
                         }
                     }
                 }
@@ -402,8 +396,15 @@ class ScrollyTeller extends Component {
                                 />
                         )}
                     </div>
-                    <StackedBar height={this.state.panelHeight-70} percentages={this.state.percentages} />
-                    <MapFunctions types={this.state.types} coalData={dataCoal} debug={ this.m_debug} currentData={currentData,dataWind,dataHydro} solarData={dataSolar,dataSolar2} height={this.state.panelHeight} activeYear={this.state.sections !== undefined ? this.state.sections[this.state.activeId].year : "1950"} />
+                    <StackedBar height={this.state.panelHeight-70}
+                                percentages={this.state.percentages} />
+                    <MapVisualization types={this.state.types}
+                                      coalData={dataCoal}
+                                      debug={ this.m_debug}
+                                      currentData={currentData}
+                                      solarData={dataSolar}
+                                      height={this.state.panelHeight}
+                                      activeYear={this.state.sections !== undefined ? this.state.sections[this.state.activeId].year : "1950"} />
 
                 </div>
             </div>
@@ -411,35 +412,4 @@ class ScrollyTeller extends Component {
     }
 }
 
-
-class NavMenuTypeItem extends Component {
-    handleClick = () => {
-        this.props.onClickA(this.props.type);
-    }
-
-    render() {
-        return (
-            <div onClick={this.handleClick} className={`navItem navItemColor ${this.props.active ? "navItemActive_" + this.props.type : ""}`}> {this.props.type} </div>
-
-        );
-    }
-}
-
-class StackedBar extends Component {
-    render() {
-        return (
-            <div className="mapBorder" style={{ height: this.props.height }} id="stackedBar">
-                <Stackedbarchart percentages={this.props.percentages} width={85} height={this.props.height} /> 
-            </div>
-        )
-    }
-}
-const NavMenuItem = ({ id, name, activeId }) => (
-
-    <ScrollIntoView
-        selector={`#section${name}_id_p0`}
-        alignToTop={false} >
-        <div className={`navItem ${id === activeId ? "navItemActive" : ""} `}> {name} </div>
-    </ScrollIntoView>
-)
-ReactDOM.render(<ScrollyTeller />, document.getElementById('root'));
+export default ScrollyTeller;

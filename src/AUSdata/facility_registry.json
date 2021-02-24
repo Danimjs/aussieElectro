@@ -501,7 +501,7 @@
            "capacity": 9.9,
            "type2": "distillate",
            "type": "Distillate",
-           "site": "Geraldton diesel",
+           "site": "Tesla Geraldton",
            "state": "WA",
            "yearStart": 2010,
            "yearEnd": 9999
@@ -520,7 +520,7 @@
            "capacity": 9.9,
            "type2": "distillate",
            "type": "Distillate",
-           "site": "Kemerton diesel",
+           "site": "Tesla Kemerton",
            "state": "WA",
            "yearStart": 2010,
            "yearEnd": 9999
@@ -539,7 +539,7 @@
            "capacity": 9.9,
            "type2": "distillate",
            "type": "Distillate",
-           "site": "Northam diesel",
+           "site": "Tesla Northam",
            "state": "WA",
            "yearStart": 2010,
            "yearEnd": 9999
@@ -558,7 +558,7 @@
            "capacity": 9.9,
            "type2": "distillate",
            "type": "Distillate",
-           "site": "Picton diesel",
+           "site": "Tesla Picton",
            "state": "WA",
            "yearStart": 2010,
            "yearEnd": 9999
@@ -593,7 +593,7 @@
       {
         "type": "Feature",
         "properties": {
-           "capacity": 180,
+           "capacity": 217,
            "type2": "gas_ocgt",
            "type": "Gas",
            "site": "Hallett",
@@ -1543,7 +1543,7 @@
       {
         "type": "Feature",
         "properties": {
-           "capacity": 6,
+           "capacity": 12,
            "type2": "gas_recip",
            "type": "Gas",
            "site": "Wilga Park B",
@@ -1793,7 +1793,7 @@
            "capacity": 335,
            "type2": "gas_ccgt",
            "type": "Gas",
-           "site": "Newgen Kwinana",
+           "site": "Kwinana",
            "state": "WA",
            "yearStart": 2010,
            "yearEnd": 9999
@@ -1828,7 +1828,7 @@
       {
         "type": "Feature",
         "properties": {
-           "capacity": 600.6,
+           "capacity": 600.5,
            "type2": "gas_ocgt",
            "type": "Gas",
            "site": "Pinjar",
@@ -1866,7 +1866,7 @@
       {
         "type": "Feature",
         "properties": {
-           "capacity": 418,
+           "capacity": 436,
            "type2": "gas_ocgt",
            "type": "Gas",
            "site": "Wagerup",
@@ -2893,8 +2893,8 @@
         "type": "Feature",
         "properties": {
            "capacity": 1050,
-           "type2": "hydro",
-           "type": "Hydro",
+           "type2": "pumps",
+           "type": "Pumps",
            "site": "Wivenhoe",
            "state": "QLD",
            "yearStart": 2010,
@@ -3057,994 +3057,6 @@
            "coordinates": [
               148.63057,
               -36.434918
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 17,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Baking Board",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              150.55417,
-              -26.721166
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 50,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Bannerton",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.750362,
-              -34.67263
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 10,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Barcaldine",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.318972,
-              -23.547333
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 98,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Beryl",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.460738,
-              -32.347501
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 135,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Bungala One",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              137.841798,
-              -32.423316
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 135,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Bungala Two",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              137.840933,
-              -32.406993
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 27,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Broken Hill",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              141.391547,
-              -31.988905
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 1,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Capital East",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.546482,
-              -35.180684
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 64,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Childers",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              152.403674,
-              -25.295027
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 110,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Clare",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.21055,
-              -19.83977
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 92,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Clermont",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.5460307,
-              -22.8394058
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 180,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Coleambally",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.92984,
-              -34.759494
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 42,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Collinsville",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.820552,
-              -20.55714
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 79,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Daydream",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.691968,
-              -20.512804
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 121,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Darling Downs",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              150.8819,
-              -27.112
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 88,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Emerald",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              148.128017,
-              -23.50879
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 162,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Finley",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.508644,
-              -35.64421
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 25,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Gannawarra",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.7711,
-              -35.73
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 27,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Griffith",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              146.120739,
-              -34.317414
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 57,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Hamilton",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.799484,
-              -20.468593
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 132,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Haughton",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.076137,
-              -19.732168
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 57,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Hayman",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.846065,
-              -20.536162
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 10,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Hughenden",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              144.186048,
-              -20.854794
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 104,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Karadoc",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.28033,
-              -34.227904
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 50,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Kidston",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              144.151,
-              -18.88
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 118,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Lilyvale",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              148.413865,
-              -23.070504
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 17,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Longreach",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              144.227917,
-              -23.455048
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 25,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Manildra",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              148.71824,
-              -33.172831
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 12,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Mugga Lane",
-           "state": "ACT",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.14906,
-              -35.398441
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 57,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Moree",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.861266,
-              -29.572607
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 10,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Narromine",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              148.254523,
-              -32.218323
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 132,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Nevertire",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.7051778,
-              -31.8310438
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 74,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Numurkah",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.473891,
-              -36.159275
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 102,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Nyngan",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.0741951,
-              -31.56319134
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 30,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Oakey 1",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              151.6425757,
-              -27.402454
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 65,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Oakey 2",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              151.6425757,
-              -27.402454
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 55,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Parkes",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              148.076372,
-              -33.113056
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 20,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Royalla",
-           "state": "ACT",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.1419657,
-              -35.48605246
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 128,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Ross River",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              146.715686,
-              -19.425305
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 83,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Rugby Run",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.880877,
-              -21.940469
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 15,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "South Keswick",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              148.649836,
-              -32.27286
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 117,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Sun Metals",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              146.696015,
-              -19.437318
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 85,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Susan River",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              152.742028,
-              -25.420275
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 108,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Tailem Bend  1",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              139.49,
-              -35.28
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 15,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Sunshine Coast",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              153.025947,
-              -26.560799
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 97,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Wemen",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.543348,
-              -34.80259
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 57,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Whitsunday",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              147.80475,
-              -20.537259
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 22,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "White Rock",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              151.5502083,
-              -29.7632925
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 38,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Limondale SF",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.5080463,
-              -34.7755018
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 10,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Greenough River",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              115.1093701,
-              -28.9038103
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 0.96,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Metro",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              115.8084562,
-              -32.1033849
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 7.753,
-           "type2": "solar",
-           "type": "Solar2",
-           "site": "Northam",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              116.7115411,
-              -31.6516099
            ]
         }
      },
@@ -5153,1564 +4165,6 @@
       {
         "type": "Feature",
         "properties": {
-           "capacity": 241.59,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Ararat",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.082116,
-              -37.263393
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 59,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Bald Hills",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.9560624,
-              -38.75818898
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 52.5,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "The Bluff",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.7937899,
-              -33.3677405
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 113,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Boco Rock",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.1248629,
-              -36.57452676
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 113,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Bodangora",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.04133,
-              -32.407128
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 46,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Canunda",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              140.3836333,
-              -37.69830278
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 140,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Capital",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.5002488,
-              -35.1235342
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 66,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Cathedral Rocks",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              135.5926489,
-              -34.84874114
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 19.8,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Coonoer Bridge",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.322039,
-              -36.472722
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 52,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Challicum Hills",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.1045904,
-              -37.39546597
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 6,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Chepstowe",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.499582,
-              -37.596503
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 57,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Clements Gap",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.1116949,
-              -33.48977319
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 18,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Codrington",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              141.9549602,
-              -38.28287469
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 452,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Coopers Gap",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              151.4491769,
-              -26.7170038
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 96,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Crookwell 2",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.589254,
-              -34.547676
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 79,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Crowlands",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.097998,
-              -36.97615
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 30,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Cullerin Range",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.3810268,
-              -34.75099457
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 111,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Granville Harbour",
-           "state": "TAS",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.056,
-              -41.802
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 176,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Gullen Range",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.4585486,
-              -34.62451156
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 47,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Gunning",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.6644302,
-              -34.67636075
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 95,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Hallett 1",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.7046687,
-              -33.3284341
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 71,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Hallett 2",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.8572146,
-              -33.53821029
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 4,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Hepburn Wind",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              144.115711,
-              -37.424555
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 102,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Hornsdale",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.537673,
-              -33.05982
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 102,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Hornsdale  2",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.537673,
-              -33.05982
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 112,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Hornsdale  3",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.537673,
-              -33.05982
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 31,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Kiata",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              141.746827,
-              -36.397693
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 212.4,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Lincoln Gap",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              137.5527629,
-              -32.5463326
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 81,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Lake Bonney  1",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              140.4055412,
-              -37.76050438
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 39,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Lake Bonney 3",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              140.4055412,
-              -37.76050438
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 159,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Lake Bonney 2",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              140.4055412,
-              -37.76050438
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 420,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Macarthur",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.1790806,
-              -38.04348284
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 6,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Maroona",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.82434,
-              -37.41875
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 180,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Mt Emerald",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.380037,
-              -17.133248
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 20,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Mortons Lane",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.4652881,
-              -37.83318644
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 137.984,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Mt Gellibrand",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.798651,
-              -38.257657
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 131,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Mt Mercer",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.870183,
-              -37.84759262
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 70,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Mt Millar",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              136.7175682,
-              -33.6193425
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 168,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Musselroe",
-           "state": "TAS",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              148.0063147,
-              -40.77710526
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 231,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Murra Warra",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.246003,
-              -36.438821
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 132,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "North Brown Hill",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.7168884,
-              -33.22811562
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 67,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Oaklands Hill",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.5529949,
-              -37.67948099
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 148,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Portland",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              141.3845597,
-              -38.36141715
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 54,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Salt Creek",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.796027,
-              -37.918698
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 270,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Sapphire",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              151.44558,
-              -29.710273
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 144,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Snowtown North",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.1430432,
-              -33.75647865
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 126,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Snowtown South",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.1303665,
-              -33.86262421
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 99,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Snowtown",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.1660222,
-              -33.69159845
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 35,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Starfish Hill",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.1396531,
-              -35.57898296
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 198,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Silverton",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              141.296349,
-              -31.86095
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 106,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Taralga",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.8596032,
-              -34.42538727
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 7,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Timboon West",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.916231,
-              -38.528351
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 21,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Toora",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              146.3397739,
-              -38.65352796
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 130,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Waterloo",
-           "state": "TAS",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.9157228,
-              -33.99109527
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 192,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Waubra",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.5926002,
-              -37.35797906
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 119,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Willogoleche",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              138.84821,
-              -33.393569
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 12,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Windy Hill",
-           "state": "QLD",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.52968,
-              -17.590399
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 12,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Wonthaggi",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              145.546292,
-              -38.60513
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 48,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Woodlawn",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.5705107,
-              -35.0816746
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 140,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Woolnorth",
-           "state": "TAS",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              144.6948205,
-              -40.73637475
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 91,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Wattle Point",
-           "state": "SA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              137.7186724,
-              -35.11541044
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 175,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "White Rock",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              151.5453929,
-              -29.8291832
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 30,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Yambuk",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              142.0184392,
-              -38.30527811
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 7.2,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Yawong",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              143.361722,
-              -36.471022
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 144,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Yendon",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              144.022463,
-              -37.630952
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 28,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Yaloak South",
-           "state": "VIC",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              144.241947,
-              -37.716474
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 9.9,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Blayney",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.198333,
-              -33.621944
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 4.8,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Crookwell",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              149.54248,
-              -34.5165
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 1.32,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Hampton",
-           "state": "NSW",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              150.05,
-              -33.649722
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 21.6,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Albany",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              117.7975063,
-              -35.0658354
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 130,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Badgingarra",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              115.3240452,
-              -30.4399239
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 0.6,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Bremer Bay",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              119.3893766,
-              -34.3990329
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 206,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Collgar",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              118.490597,
-              -31.59751
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 1.44,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Denmark",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              117.3190123,
-              -35.0369706
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 80,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Emu Downs",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              115.3790523,
-              -30.4756469
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 13.8,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Grasmere",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              117.7975063,
-              -35.0658354
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 1.6,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Kalbarri",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              114.1923536,
-              -27.8983027
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 5,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Karakin",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              115.3666128,
-              -30.9422424
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 2.43,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Mount Barker",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              117.6439045,
-              -34.6011629
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 55,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Mumbida",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              114.9662285,
-              -29.0110631
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 89.1,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "Walkaway",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              114.8927165,
-              -28.9024923
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
-           "capacity": 5,
-           "type2": "wind",
-           "type": "Wind",
-           "site": "West Hills",
-           "state": "WA",
-           "yearStart": 2010,
-           "yearEnd": 9999
-        },
-        "geometry": {
-           "type": "Point",
-           "coordinates": [
-              115.4632611,
-              -30.8581035
-           ]
-        }
-     },
-      {
-        "type": "Feature",
-        "properties": {
            "capacity": 60,
            "type2": "battery_charging",
            "type": "Storage",
@@ -6749,7 +4203,7 @@
       {
         "type": "Feature",
         "properties": {
-           "capacity": 179.982,
+           "capacity": 220,
            "type2": "battery_charging",
            "type": "Storage",
            "site": "Hornsdale Power Reserve",
@@ -6764,6 +4218,254 @@
               -33.085519
            ]
         }
+     },
+              {
+        "type": "Feature",
+        "properties": {
+           "capacity": 279,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Channel Island",
+           "state": "NT",
+           "yearStart": 1986,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              130.8665437,
+              -12.554503
+           ]
+        }
+     },
+                      {
+        "type": "Feature",
+        "properties": {
+           "capacity": 129,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Weddell",
+           "state": "NT",
+           "yearStart": 2008,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              130.950184,
+              -12.577119
+           ]
+        }
+     },
+              {
+        "type": "Feature",
+        "properties": {
+           "capacity": 36.5,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Katherine",
+           "state": "NT",
+           "yearStart": 1987,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              132.243939,
+              -14.458674
+           ]
+        }
+     },
+              {
+        "type": "Feature",
+        "properties": {
+           "capacity": 26.6,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Pine Creek",
+           "state": "NT",
+           "yearStart": 1988,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              131.86161,
+              -13.78467
+           ]
+        }
+     },
+              {
+        "type": "Feature",
+        "properties": {
+           "capacity": 44.1,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Ron Goodin",
+           "state": "NT",
+           "yearStart": 1973,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              133.8902542,
+              -23.7088333
+           ]
+        }
+     },
+              {
+        "type": "Feature",
+        "properties": {
+           "capacity": 77,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Owen Springs",
+           "state": "NT",
+           "yearStart": 2011,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              133.82347084442745,
+              -23.86370980192623
+           ]
+        }
+     },
+            {
+        "type": "Feature",
+        "properties": {
+           "capacity": 19.8,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Tennant Creek",
+           "state": "NT",
+           "yearStart": 1980,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              134.176003,
+              -19.654623
+           ]
+        }
+     },
+            {
+        "type": "Feature",
+        "properties": {
+           "capacity": 11,
+           "type2": "gas_cng",
+           "type": "Gas",
+           "site": "Yulara",
+           "state": "NT",
+           "yearStart": 1980,
+           "yearEnd": 1999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              130.991459,
+              -25.231890
+           ]
+        }
+     },
+            {
+        "type": "Feature",
+        "properties": {
+           "capacity": 77,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Kings Canyon",
+           "state": "NT",
+           "yearStart": 1980,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates":[
+              131.507014,
+              -24.247453
+           ]
+        }
+     },
+     {
+        "type": "Feature",
+        "properties": {
+           "capacity": 25,
+           "type2": "battery_discharging",
+           "type": "Storage",
+           "site": "Lake Bonney Bessl",
+           "state": "SA",
+           "yearStart": 2010,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              140.3846721,
+              -37.7387871
+           ]
+        }
+     },
+             {
+        "type": "Feature",
+        "properties": {
+           "capacity": null,
+           "type2": "bioenergy_biogas",
+           "type": "Waste",
+           "site": "Atlas",
+           "state": "WA",
+           "yearStart": 2010,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              115.8182949,
+              -31.8644574
+           ]
+        }
+     },
+ {
+        "type": "Feature",
+        "properties": {
+           "capacity": 7,
+           "type2": "bioenergy_biogas",
+           "type": "Waste",
+           "site": "Berwick",
+           "state": "VIC",
+           "yearStart": 2010,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              145.236257,
+              -37.940819
+           ]
+        }
+     },
+         {
+        "type": "Feature",
+        "properties": {
+           "capacity": 23,
+           "type2": "gas_ocgt",
+           "type": "Gas",
+           "site": "Southern Cross",
+           "state": "WA",
+           "yearStart": 2010,
+           "yearEnd": 9999
+        },
+        "geometry": {
+           "type": "Point",
+           "coordinates": [
+              121.6719012,
+              -31.1919033
+           ]
+        }
+<<<<<<< HEAD
      },
       {
         "type": "Feature",
@@ -6824,3 +4526,8 @@
       }
     ]
 }
+=======
+    }
+  ]
+ }
+>>>>>>> ba8c44f0aeafc61049184a0c5124beef5ecd81d1
