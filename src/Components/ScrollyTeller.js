@@ -1,15 +1,15 @@
 import React, {Component} from "react";
 import * as d3 from "d3";
-import stackedData from "../AUSdata/yearDistribution.csv";
-import dataSolar from "../AUSdata/powerStations_solar.json";
-import sectiondata from "../playdata/sections.json";
+import stackedData from "./AUSdata/yearDistribution.csv";
+import dataSolar from "./AUSdata/powerStations_solar.json";
+import sectiondata from "./playdata/sections.json";
 import StoryPanel from "./StoryPanel";
 import MapVisualization from "./MapVisualization";
-import dataCoal from "../AUSdata/powerStations_coal.json";
-import dataWind from "../AUSdata/facility_wind.json";
-import dataHydro from "../AUSdata/facility_hydro.json"
-import dataSolar2 from "../AUSdata/facility_solar2.json"
-import currentData from "../AUSdata/facility_registry.json";
+import dataCoal from "./AUSdata/powerStations_coal.json";
+import dataWind from "./AUSdata/facility_wind.json";
+import dataHydro from "./AUSdata/facility_hydro.json"
+import dataSolar2 from "./AUSdata/facility_solar2.json"
+import currentData from "./AUSdata/facility_registry.json";
 import StackedBar from "./StackedBar";
 import NavMenuItem from "./NavMenuItem";
 import NavMenuTypeItem from "./NavMenuTypeItem";
