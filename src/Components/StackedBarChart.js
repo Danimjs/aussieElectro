@@ -12,23 +12,23 @@ export default class StackedBarChart extends PureComponent {
   m_colors = {
     "Coal": "#91908d",
     "Solar": "#ffc83e",
+    "Solar2": "#ffa93e", 
     "Hydro": "#43cfef",
     "Wind": "#00a98e",
-    "Waste": "#6b4b06",
-    "Solar2": "#ea545c",
-    "Gas": "#cc9b7a"
+    "Waste": "#ea545c", 
+    "Gas": "#6b4b06"
   }
 
   /*
-     "Coal", "#ced1cc",
-                          "Storage", "#4e80e5",
-                          "Solar", "#ffc83e",
-                          "Hydro", "#43cfef",
-                          "Wind", "#00a98e",
-                          "Biomass", "#A7B734",
-                          "Solar2", "#ea545c",
-                          "Gas", "#cc9b7a",
-                          "Waste", "#6b4b06",*/
+     "Coal", "#ced1cc", = grey
+      "Storage", "#4e80e5", = purple
+      "Solar", "#ffc83e", = yellow
+      "Solar2", #ffa93e", = orange
+      "Hydro", "#43cfef", = blue
+      "Wind", "#66e326", = green
+      "Gas", "#6b4b06", = brown
+      "Waste", "#ea545c", = red 
+      */
 
   state = {
     data: {
