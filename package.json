@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage": "http://danimjs.github.io/aussieElectro",
-=======
-  "homepage": "https://danimjs.github.io/aussieElectro/",
->>>>>>> ba8c44f0aeafc61049184a0c5124beef5ecd81d1
   "name": "scrollyteller-react",
   "version": "0.1.0",
   "private": false,
@@ -22,7 +18,6 @@
     "react-chartjs-2": "^2.11.1",
     "react-dom": "^16.14.0",
     "react-html-parser": "^2.0.2",
-<<<<<<< HEAD
     "react-intersection-observer": "^8.31.0",
     "react-mapbox-gl": "^4.8.6",
     "react-scripts": "3.4.0",
@@ -30,15 +25,6 @@
     "react-sticky-el": "^1.1.1",
     "react-waypoint": "^9.0.3",
     "recharts": "^2.0.6"
-=======
-    "react-intersection-observer": "^8.26.1",
-    "react-mapbox-gl": "^4.8.2",
-    "react-scripts": "^3.4.0",
-    "react-scroll-into-view": "^1.8.0",
-    "react-sticky-el": "^1.1.0",
-    "react-waypoint": "^9.0.2",
-    "recharts": "^2.0.0-beta.3"
->>>>>>> ba8c44f0aeafc61049184a0c5124beef5ecd81d1
   },
   "scripts": {
     "start": "react-scripts start",
