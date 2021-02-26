@@ -15,7 +15,6 @@ import MapFunctions from './MapFunctions.js';
 import sectiondata from './playdata/sections.json'
 import ScrollIntoView from 'react-scroll-into-view'
 import Stackedbarchart from './stacked-bar.js'
-import dropdownmenu from './Components/Dropdown.js'
 
 import *  as d3 from 'd3'
 import stackedData from './AUSdata/yearDistribution.csv'
