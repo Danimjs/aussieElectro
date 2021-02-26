@@ -6,7 +6,7 @@ import './css/responsive.css'
 import StoryPanel from 'src/Components/StoryPanel.js'
 //import * as d3 from 'd3'
 import dataCoal from './AUSdata/powerStations_coal.json'
-import dataSolar from './AUSdata/powerStations_solar.json'
+import dataSolar from './AUSdata/postcode_solar.json'
 import currentData from "./AUSdata/facility_registry.json"
 import dataHydro from "./AUSdata/facility_hydro.json"
 import dataWind from "./AUSdata/facility_wind.json"
